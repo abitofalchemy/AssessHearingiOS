@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E3BF39E13AE8733007EEC9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3BF39D13AE8733007EEC9F /* UIKit.framework */; };
+		3E3BF3A013AE8733007EEC9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3BF39F13AE8733007EEC9F /* Foundation.framework */; };
+		3E3BF3A213AE8733007EEC9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3BF3A113AE8733007EEC9F /* CoreGraphics.framework */; };
+		3E3BF3A813AE8733007EEC9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E3BF3A613AE8733007EEC9F /* InfoPlist.strings */; };
+		3E3BF3AB13AE8733007EEC9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3BF3AA13AE8733007EEC9F /* main.m */; };
+		3E3BF3AE13AE8733007EEC9F /* SwitchViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3BF3AD13AE8733007EEC9F /* SwitchViewControllerAppDelegate.m */; };
+		3E3BF3B113AE8733007EEC9F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3BF3AF13AE8733007EEC9F /* MainWindow.xib */; };
+		3E3BF3B413AE8733007EEC9F /* TTSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3BF3B313AE8733007EEC9F /* TTSetupViewController.m */; };
+		3E3BF3B713AE8733007EEC9F /* TTSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3BF3B513AE8733007EEC9F /* TTSetupViewController.xib */; };
+		3E3BF4A313AFE21A007EEC9F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3BF4A213AFE219007EEC9F /* AudioToolbox.framework */; };
+		3E51F9C413B2624500114F0E /* AudiogramChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E51F9C313B2624500114F0E /* AudiogramChart.m */; };
+		3EA5AA3513CB0EEB00461A17 /* TTrackViewCntrlr.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5AA3413CB0EEB00461A17 /* TTrackViewCntrlr.m */; };
+		3EA5AA4113CB134400461A17 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5AA4013CB134400461A17 /* ModalViewController.m */; };
+		3EA5AA4313CB146200461A17 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5AA4213CB146200461A17 /* ModalViewController.xib */; };
+		3EA5AA4613CB157500461A17 /* 500msTone750.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5AA4513CB157500461A17 /* 500msTone750.wav */; };
+		3EDA927E13EC0A9C00D4611A /* LevelTrackingGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA927D13EC0A9C00D4611A /* LevelTrackingGraph.m */; };
+		3EDDAA2213C41E090016B2A5 /* LevelMonitor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EDDAA1F13C41E090016B2A5 /* LevelMonitor.xib */; };
+		3EDDAA2513C421760016B2A5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDDAA2413C421760016B2A5 /* AVFoundation.framework */; };
+		3EDDAA2F13C487210016B2A5 /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3EDDAA2E13C487210016B2A5 /* tap.aif */; };
+		3EFBB77D13D5926A00978023 /* 1ktone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EFBB77C13D5926A00978023 /* 1ktone.mp3 */; };
+		3EFBB78013D592A200978023 /* rounded_rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFBB77F13D592A200978023 /* rounded_rectangle.png */; };
+		3EFBB78313D592C900978023 /* UIBarButtonPause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFBB78113D592C900978023 /* UIBarButtonPause.png */; };
+		3EFBB78413D592C900978023 /* UIBarButtonPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFBB78213D592C900978023 /* UIBarButtonPlay.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E3BF39913AE8733007EEC9F /* mobiAudiometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobiAudiometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3BF39D13AE8733007EEC9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E3BF39F13AE8733007EEC9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E3BF3A113AE8733007EEC9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E3BF3A513AE8733007EEC9F /* mobiAudiometer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mobiAudiometer-Info.plist"; sourceTree = "<group>"; };
+		3E3BF3A713AE8733007EEC9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E3BF3A913AE8733007EEC9F /* mobiAudiometer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mobiAudiometer-Prefix.pch"; sourceTree = "<group>"; };
+		3E3BF3AA13AE8733007EEC9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E3BF3AC13AE8733007EEC9F /* SwitchViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchViewControllerAppDelegate.h; sourceTree = "<group>"; };
+		3E3BF3AD13AE8733007EEC9F /* SwitchViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		3E3BF3B013AE8733007EEC9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3E3BF3B213AE8733007EEC9F /* TTSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSetupViewController.h; sourceTree = "<group>"; };
+		3E3BF3B313AE8733007EEC9F /* TTSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSetupViewController.m; sourceTree = "<group>"; };
+		3E3BF3B613AE8733007EEC9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTSetupViewController.xib; sourceTree = "<group>"; };
+		3E3BF4A213AFE219007EEC9F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3E51F9C213B2624400114F0E /* AudiogramChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudiogramChart.h; sourceTree = "<group>"; };
+		3E51F9C313B2624500114F0E /* AudiogramChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudiogramChart.m; sourceTree = "<group>"; };
+		3EA5AA3313CB0EEB00461A17 /* TTrackViewCntrlr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTrackViewCntrlr.h; sourceTree = "<group>"; };
+		3EA5AA3413CB0EEB00461A17 /* TTrackViewCntrlr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTrackViewCntrlr.m; sourceTree = "<group>"; };
+		3EA5AA3F13CB134300461A17 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		3EA5AA4013CB134400461A17 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		3EA5AA4213CB146200461A17 /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		3EA5AA4413CB149C00461A17 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		3EA5AA4513CB157500461A17 /* 500msTone750.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 500msTone750.wav; sourceTree = "<group>"; };
+		3EDA927C13EC0A9C00D4611A /* LevelTrackingGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LevelTrackingGraph.h; path = ../LevelTrackingGraph.h; sourceTree = "<group>"; };
+		3EDA927D13EC0A9C00D4611A /* LevelTrackingGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LevelTrackingGraph.m; path = ../LevelTrackingGraph.m; sourceTree = "<group>"; };
+		3EDDAA1F13C41E090016B2A5 /* LevelMonitor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelMonitor.xib; sourceTree = "<group>"; };
+		3EDDAA2413C421760016B2A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3EDDAA2E13C487210016B2A5 /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.aif; sourceTree = "<group>"; };
+		3EFBB77C13D5926A00978023 /* 1ktone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1ktone.mp3; sourceTree = "<group>"; };
+		3EFBB77F13D592A200978023 /* rounded_rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rounded_rectangle.png; path = ../../rounded_rectangle.png; sourceTree = "<group>"; };
+		3EFBB78113D592C900978023 /* UIBarButtonPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIBarButtonPause.png; path = ../../UIBarButtonPause.png; sourceTree = "<group>"; };
+		3EFBB78213D592C900978023 /* UIBarButtonPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIBarButtonPlay.png; path = ../../UIBarButtonPlay.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E3BF39613AE8733007EEC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDDAA2513C421760016B2A5 /* AVFoundation.framework in Frameworks */,
+				3E3BF4A313AFE21A007EEC9F /* AudioToolbox.framework in Frameworks */,
+				3E3BF39E13AE8733007EEC9F /* UIKit.framework in Frameworks */,
+				3E3BF3A013AE8733007EEC9F /* Foundation.framework in Frameworks */,
+				3E3BF3A213AE8733007EEC9F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E3BF38E13AE8733007EEC9F = {
+			isa = PBXGroup;
+			children = (
+				3E3BF3A313AE8733007EEC9F /* MobileAudiometer */,
+				3E3BF39C13AE8733007EEC9F /* Frameworks */,
+				3E3BF39A13AE8733007EEC9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E3BF39A13AE8733007EEC9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E3BF39913AE8733007EEC9F /* mobiAudiometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E3BF39C13AE8733007EEC9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EDDAA2413C421760016B2A5 /* AVFoundation.framework */,
+				3E3BF4A213AFE219007EEC9F /* AudioToolbox.framework */,
+				3E3BF39D13AE8733007EEC9F /* UIKit.framework */,
+				3E3BF39F13AE8733007EEC9F /* Foundation.framework */,
+				3E3BF3A113AE8733007EEC9F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E3BF3A313AE8733007EEC9F /* MobileAudiometer */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA927C13EC0A9C00D4611A /* LevelTrackingGraph.h */,
+				3EDA927D13EC0A9C00D4611A /* LevelTrackingGraph.m */,
+				3E3BF3AC13AE8733007EEC9F /* SwitchViewControllerAppDelegate.h */,
+				3E3BF3AD13AE8733007EEC9F /* SwitchViewControllerAppDelegate.m */,
+				3E3BF3B213AE8733007EEC9F /* TTSetupViewController.h */,
+				3E3BF3B313AE8733007EEC9F /* TTSetupViewController.m */,
+				3EA5AA3F13CB134300461A17 /* ModalViewController.h */,
+				3EA5AA4013CB134400461A17 /* ModalViewController.m */,
+				3EA5AA3313CB0EEB00461A17 /* TTrackViewCntrlr.h */,
+				3EA5AA3413CB0EEB00461A17 /* TTrackViewCntrlr.m */,
+				3E3BF3AF13AE8733007EEC9F /* MainWindow.xib */,
+				3E3BF3B513AE8733007EEC9F /* TTSetupViewController.xib */,
+				3EDDAA1F13C41E090016B2A5 /* LevelMonitor.xib */,
+				3EA5AA4213CB146200461A17 /* ModalViewController.xib */,
+				3E51F9C213B2624400114F0E /* AudiogramChart.h */,
+				3E51F9C313B2624500114F0E /* AudiogramChart.m */,
+				3E3BF49E13AFE131007EEC9F /* Media */,
+				3E3BF3A413AE8733007EEC9F /* Supporting Files */,
+			);
+			name = MobileAudiometer;
+			path = SwitchViewController;
+			sourceTree = "<group>";
+		};
+		3E3BF3A413AE8733007EEC9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EA5AA4413CB149C00461A17 /* Constants.h */,
+				3E3BF3A513AE8733007EEC9F /* mobiAudiometer-Info.plist */,
+				3E3BF3A613AE8733007EEC9F /* InfoPlist.strings */,
+				3E3BF3A913AE8733007EEC9F /* mobiAudiometer-Prefix.pch */,
+				3E3BF3AA13AE8733007EEC9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E3BF49E13AFE131007EEC9F /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				3EFBB78113D592C900978023 /* UIBarButtonPause.png */,
+				3EFBB78213D592C900978023 /* UIBarButtonPlay.png */,
+				3EFBB77F13D592A200978023 /* rounded_rectangle.png */,
+				3EA5AA4513CB157500461A17 /* 500msTone750.wav */,
+				3EDDAA2E13C487210016B2A5 /* tap.aif */,
+				3EFBB77C13D5926A00978023 /* 1ktone.mp3 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E3BF39813AE8733007EEC9F /* mobiAudiometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3BF3BA13AE8733007EEC9F /* Build configuration list for PBXNativeTarget "mobiAudiometer" */;
+			buildPhases = (
+				3E3BF39513AE8733007EEC9F /* Sources */,
+				3E3BF39613AE8733007EEC9F /* Frameworks */,
+				3E3BF39713AE8733007EEC9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobiAudiometer;
+			productName = SwitchViewController;
+			productReference = 3E3BF39913AE8733007EEC9F /* mobiAudiometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E3BF39013AE8733007EEC9F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3E3BF39313AE8733007EEC9F /* Build configuration list for PBXProject "mobiAudiometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E3BF38E13AE8733007EEC9F;
+			productRefGroup = 3E3BF39A13AE8733007EEC9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E3BF39813AE8733007EEC9F /* mobiAudiometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E3BF39713AE8733007EEC9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3BF3A813AE8733007EEC9F /* InfoPlist.strings in Resources */,
+				3E3BF3B113AE8733007EEC9F /* MainWindow.xib in Resources */,
+				3E3BF3B713AE8733007EEC9F /* TTSetupViewController.xib in Resources */,
+				3EDDAA2213C41E090016B2A5 /* LevelMonitor.xib in Resources */,
+				3EDDAA2F13C487210016B2A5 /* tap.aif in Resources */,
+				3EA5AA4313CB146200461A17 /* ModalViewController.xib in Resources */,
+				3EA5AA4613CB157500461A17 /* 500msTone750.wav in Resources */,
+				3EFBB77D13D5926A00978023 /* 1ktone.mp3 in Resources */,
+				3EFBB78013D592A200978023 /* rounded_rectangle.png in Resources */,
+				3EFBB78313D592C900978023 /* UIBarButtonPause.png in Resources */,
+				3EFBB78413D592C900978023 /* UIBarButtonPlay.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E3BF39513AE8733007EEC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3BF3AB13AE8733007EEC9F /* main.m in Sources */,
+				3E3BF3AE13AE8733007EEC9F /* SwitchViewControllerAppDelegate.m in Sources */,
+				3E3BF3B413AE8733007EEC9F /* TTSetupViewController.m in Sources */,
+				3E51F9C413B2624500114F0E /* AudiogramChart.m in Sources */,
+				3EA5AA3513CB0EEB00461A17 /* TTrackViewCntrlr.m in Sources */,
+				3EA5AA4113CB134400461A17 /* ModalViewController.m in Sources */,
+				3EDA927E13EC0A9C00D4611A /* LevelTrackingGraph.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E3BF3A613AE8733007EEC9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E3BF3A713AE8733007EEC9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E3BF3AF13AE8733007EEC9F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E3BF3B013AE8733007EEC9F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3E3BF3B513AE8733007EEC9F /* TTSetupViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E3BF3B613AE8733007EEC9F /* en */,
+			);
+			name = TTSetupViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E3BF3B813AE8733007EEC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Salvador Aguinaga (FVJ292Z95D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "1A774971-74FE-4FB7-B63D-A0A82664C0F8";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E3BF3B913AE8733007EEC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Salvador Aguinaga (FVJ292Z95D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "1A774971-74FE-4FB7-B63D-A0A82664C0F8";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3E3BF3BB13AE8733007EEC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchViewController/mobiAudiometer-Prefix.pch";
+				INFOPLIST_FILE = "SwitchViewController/mobiAudiometer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = mobiAudiometer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E3BF3BC13AE8733007EEC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchViewController/mobiAudiometer-Prefix.pch";
+				INFOPLIST_FILE = "SwitchViewController/mobiAudiometer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = mobiAudiometer;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E3BF39313AE8733007EEC9F /* Build configuration list for PBXProject "mobiAudiometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3BF3B813AE8733007EEC9F /* Debug */,
+				3E3BF3B913AE8733007EEC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3BF3BA13AE8733007EEC9F /* Build configuration list for PBXNativeTarget "mobiAudiometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3BF3BB13AE8733007EEC9F /* Debug */,
+				3E3BF3BC13AE8733007EEC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E3BF39013AE8733007EEC9F /* Project object */;
+}
